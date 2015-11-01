@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+	int i;
+	FILE *fp;
+	fp = fopen("/media/mmcblk0p1/test.txt","w");
+
+	for (i=0;i<10;i++) {
+		fprintf(fp,"%s\n","3120102924");
+		fprintf(fp,"%s\n","3120104599");
+	}
+
+	fclose(fp);
+	
+	return 0;
+}

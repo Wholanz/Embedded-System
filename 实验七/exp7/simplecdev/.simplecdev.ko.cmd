@@ -1,0 +1,1 @@
+cmd_/home/embedded/exp7/simplecdev/simplecdev.ko := ld -r -m elf_i386 -T /home/embedded/new/meta-clanton_v1.0.0/yocto_build/tmp/work/clanton-poky-linux-uclibc/linux-yocto-clanton/3.8-r0/linux/scripts/module-common.lds --build-id  -o /home/embedded/exp7/simplecdev/simplecdev.ko /home/embedded/exp7/simplecdev/simplecdev.o /home/embedded/exp7/simplecdev/simplecdev.mod.o
